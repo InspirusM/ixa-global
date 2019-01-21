@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ixa Global</title>
+  <meta name="description" content="A Online chatting website build by R4A 乄 Hydrox#8573">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Ixa Global"/>
+<meta property="og:description" content="A global chat room for everyone"/>
+<meta property="og:url" content="https://ixaglobal.herokuapp.com"/>
+<meta property="og:image" content="https://cdn.discordapp.com/attachments/536571736305565696/536932367567421486/download.png"/>
+<meta name="author" content="R4A 乄 Hydrox#8573"/>
+    <link id="favicon" rel="icon" href="https://cdn.discordapp.com/attachments/536571736305565696/536932367567421486/download.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">What's your nickname?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
